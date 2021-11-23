@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="lenceria, conjuntos, colaless, tanga, vedetina, mallas, descuentos, delicado, body, bodys, baratos, argentina">
+    <meta name="description"
+        content="Venta de lenceria por menor y mayor, envios a todo el pais y descuentos por temporadas ">
+    <title>Velvetine</title>
+    <link href="scss/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Menu de navegacion -->
+    <header>
+        <nav class="topnav">
+            <a class="logoNavbar" href="index.html">
+                <img id="logo" src="images/logo.PNG" alt="logo velvetine"></a>
+            <a href="pages/como-comprar.html" class="topnav__item">Como comprar</a>
+            <a href="pages/tienda.html" class="topnav__item">Tienda</a>
+            <a href="pages/contactus.html" class="topnav__item">Contactanos</a>
+            <a href="pages/login.html" class="topnav__item">Ingresar</a>
+            <a href="index.html" class="topnav__item" class="active">Inicio</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars" style="font-size:22px" ; color="white"></i>
+            </a>
+        </nav>
+    </header>
+    <!--Banner de publicidad-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/enviogratis.png" class="d-block w-100" alt="Envios gratis">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </h5>
+                    <p>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/cuotas.png" class="d-block w-100" alt="3 cuotas sin interes">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </h5>
+                    <p>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/15off.png" class="d-block w-100" alt="15% de descuento">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </h5>
+                    <p>
+                        <!--espacio para alguna descripcion a futuro-->
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <article>
+        <h1 class="h1Velve">Velvetine Lenceria</h1>
+    </article>
+    <!--Publicaciones nuevas de la pagina de instagram-->
+    <section id="sectionIg">
+        <iframe height="400" src="https://www.instagram.com/p/CTXNJm4Hexu/embed" title="publicacion ejemplo"
+            frameborder="10" allowfullscreen></iframe>
+        <iframe height="400" src="https://www.instagram.com/p/CPy7x1VDww2/embed" title="publicacion ejemplo"
+            frameborder="10" allowfullscreen></iframe>
+        <iframe height="400" src="https://www.instagram.com/p/CSExD22Lw2e/embed" title="publicacion ejemplo"
+            frameborder="10" allowfullscreen></iframe>
+        <video src="videos/velvetine.mp4" height="400" controls muted autoplay></video>
+    </section>
+    <!-- Adhesion de suscripcion -->
+    <section class="widget widget_blog_subscription">
+        <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
+            <h2>Suscribe nuestras noticias!</h2>
+            <div class="inputs">
+                <input type="text" name="email" style="width: 95%; padding: 1px 2px"
+                    placeholder="Ingresa tu correo electronico" value="" id="subscribe-field">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </section>
+    <!-- Reseñas de clientes -->
+
+    <nav class="testimonios">
+        <h2> Nuestros clientes, nos recomiendan! </h2>
+        <div id="testimonios__test1">
+            <span class="testimonios__nombreTest">Susana</span>
+            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
+            <p id="p1"><b>Increible la calidad ! Hermosas prendas y terminaciones excelentes</b></p>
+            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+        </div>
+        <div id="testimonios__test2">
+            <span class="testimonios__nombreTest">Julieta</span>
+            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
+            <p id="p2"><b>Envios super rapidos 100% recomendable</b></p>
+            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+        </div>
+        <div id="testimonios__test3">
+            <span class="testimonios__nombreTest">Valentina</span>
+            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
+            <p id="p3"><b>Compro siempre y los talles son reales!!</b></p>
+            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+        </div>
+    </nav>
+
+    <!-- Footer -->
+    <footer id="footer3">
+        <div class="contactos">
+            <div class="contacto1"></div>
+            <div class="contacto2"></div>
+            <div class="contacto3"></div>
+        </div>
+        <div class="logoFooter">
+            <img src="images/logoInstagram.png" alt="logo de velvetine">
+
+        </div>
+
+        <nav class="redesSociales">
+            <a href="#" class="facebook"></a>
+            <a href="https://www.facebook.com/velvetine.lenceria" class="instagram">
+                <img src="images/face.svg" alt="logo de facebook">@velvetine.lenceria</a>
+
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRwQZjtgrgTTNpPWxJLVrQPMgcMCNTgWnQLMktcSdtJfPqVpvvqClDWzQqpCQPjlbCvxMCXv"
+                class="gmail"> <img src="images/gmail.svg" alt="logo de gmail"> velvetine.lenceria@gmail.com</a>
+        </nav>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
