@@ -1,0 +1,13 @@
+body {
+    background-image: url(../images/background/banner11.png);
+    font-size: 1,3rem;
+    text-align: center;
+  }
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+  }
