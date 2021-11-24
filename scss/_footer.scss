@@ -1,0 +1,72 @@
+@import "variables";
+footer{
+  background-color: rgb(251, 201, 204);
+  text-align: center;
+  margin-bottom: 0px;
+
+  .copyright{
+    border-top: rgb(134, 134, 134) solid 1px;
+    background-color: rgb(206, 206, 206);
+  }
+}
+#footer3 {
+  background-color: rgb(251, 201, 204);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-areas: 
+  "div div nav";
+  margin-top: 50px;
+  padding-top: 50px;
+  
+
+.logoFooter{
+  display: grid;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.redesSociales{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 0px;
+  padding-top: 5vw;
+
+.facebook{
+    font-size: 1vw;
+    justify-content: left;
+    
+}
+.instagram{
+    font-size: 1vw;
+    justify-content: left;
+}
+.gmail{
+    font-size: 1vw;
+    justify-content: left;
+}
+.gmail img{
+  width: 72px;
+}
+
+}
+.redesSociales {
+  margin: 0px;
+}
+.redesSociales img{
+  padding: 10px;
+  max-width: 72px;
+
+}
+.contactos{
+  padding-top: 40px;
+
+.contacto1 img{
+  max-width: 40px;
+  margin-left: 10px;
+}
+}
+  
+}

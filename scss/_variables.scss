@@ -1,0 +1,33 @@
+$zoom: scale(1.2);
+$tiempo: transform .2s;
+$tiempo6: transform .6s;
+$alturaFooter: height 400px;
+$fontBtn: font-size 17px;
+
+
+
+/*COLORES*/
+$blanco: white;
+$black: black;
+$colorBtn: salmon;
+
+
+
+$colors: (
+	colorB: rgb(255, 255, 255),
+	colorN: rgb(0, 0, 0),
+	colorS: #fc9b7e,
+	colorR: #ff58c7,
+    colorBor: rgb(143, 1, 67),
+);
+$redes: (
+        twitter: #55acee,
+        facebook:  #3a5795,
+        send-mail: #C25E30
+); 
+
+@each $colorBtn, $color in $redes {
+   .btn--#{$colorBtn} {
+       background-color: $color;
+   }
+}

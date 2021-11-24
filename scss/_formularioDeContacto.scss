@@ -1,0 +1,68 @@
+#nombre, #email {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    justify-content: center;
+    width: 380px;
+    height: 27px;
+    background: #ffffff;
+    border: 2px solid #000000;
+  }
+  
+  #mensaje {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    justify-content: center;
+  }
+  
+  #nombre {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    justify-content: center;
+    width: 380px;
+    height: 27px;
+    background: #ffffff;
+    border: 2px solid #000000;
+  }
+  
+  .principal {
+    display: block;
+    margin: 0 auto;
+    width: 510px;
+    color: #666666;
+    font-family: Arial;
+  }
+  
+  #contactUs {
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+    padding-top: 150px;
+    margin-left: 33%;
+    width: 40%;
+    justify-content: left;
+  }
+  
+  textarea {
+    width: 380px;
+    height: 120px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  #submit {
+    width: 85px;
+    height: 35px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  

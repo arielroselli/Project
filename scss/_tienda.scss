@@ -1,0 +1,23 @@
+#titulo {
+  display: flex;
+  flex-grow: 100px;
+  padding-top: 100px;
+  margin-left: 200px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+.container {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  justify-content: left;
+
+
+  .container__contenedorConjuntos {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

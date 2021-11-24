@@ -1,0 +1,39 @@
+  /* tabla de talles */
+  .table {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    border: 3px solid #000;
+    height: 70px;
+
+    td {
+      height: 50px;
+      vertical-align: center;
+      background-color: rgb(185, 129, 162);
+      text-transform: none;
+      line-height: 19px;
+
+    }
+
+    th {
+      background-color: #757575;
+      color: white;
+    }
+
+    #list1 {
+      color: violet;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 200px;
+      float: middle;
+      margin: 0px 1px;
+      background: #ffc0f4;
+    }
+
+    #list2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      width: 19%;
+      float: bottom;
+      margin: 0px 1px;
+      background: #ffc0f4;
+    }
+  }
