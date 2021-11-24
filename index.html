@@ -96,13 +96,13 @@
     </article>
     <!--Publicaciones nuevas de la pagina de instagram-->
     <section id="sectionIg">
-        <iframe height="400" src="https://www.instagram.com/p/CTXNJm4Hexu/embed" title="publicacion ejemplo"
-            frameborder="10" allowfullscreen></iframe>
-        <iframe height="400" src="https://www.instagram.com/p/CPy7x1VDww2/embed" title="publicacion ejemplo"
-            frameborder="10" allowfullscreen></iframe>
-        <iframe height="400" src="https://www.instagram.com/p/CSExD22Lw2e/embed" title="publicacion ejemplo"
-            frameborder="10" allowfullscreen></iframe>
-        <video src="videos/velvetine.mp4" height="400" controls muted autoplay></video>
+        <iframe class="columna" height="400" src="https://www.instagram.com/p/CTXNJm4Hexu/embed"
+            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
+        <iframe class="columna" height="400" src="https://www.instagram.com/p/CWnsLSBO0w-/embed"
+            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
+        <iframe class="columna" height="400" src="https://www.instagram.com/p/CWqSXHEuEz0/embed"
+            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
+        <video class="columna" src="videos/velvetine.mp4" height="400" controls muted autoplay></video>
     </section>
     <!-- Adhesion de suscripcion -->
     <section class="widget widget_blog_subscription">
@@ -116,42 +116,39 @@
         </form>
     </section>
     <!-- Reseñas de clientes -->
-
-    <nav class="testimonios">
-        <h2> Nuestros clientes, nos recomiendan! </h2>
-        <div id="testimonios__test1">
-            <span class="testimonios__nombreTest">Susana</span>
-            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
-            <p id="p1"><b>Increible la calidad ! Hermosas prendas y terminaciones excelentes</b></p>
-            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+    <h2> Nuestros clientes, nos recomiendan! </h2>
+    <div class="testimonios">
+        <div class="row">
+            <div class="col-sm">
+                <span class="testimonios__nombreTest">Susana</span>
+                <img src="images/test1.jpg" height="100" alt="Cliente" />
+                <p id="p1"><b>Increible la calidad ! Hermosas prendas y terminaciones excelentes</b></p>
+                <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+            </div>
+            <div class="col-sm testi1">
+                <span class="testimonios__nombreTest">Julieta</span>
+                <img src="images/test2.jpg" height="100" alt="Cliente" />
+                <p id="p2"><b>Envios super rapidos 100% recomendable</b></p>
+                <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+            </div>
+            <div class="col-sm">
+                <span class="testimonios__nombreTest">Valentina</span>
+                <img src="images/test3.jpg" height="100" alt="Cliente" />
+                <p id="p3"><b>Compro siempre y los talles son reales!!</b></p>
+                <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
+            </div>
         </div>
-        <div id="testimonios__test2">
-            <span class="testimonios__nombreTest">Julieta</span>
-            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
-            <p id="p2"><b>Envios super rapidos 100% recomendable</b></p>
-            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
-        </div>
-        <div id="testimonios__test3">
-            <span class="testimonios__nombreTest">Valentina</span>
-            <img src="images/background/icono.jpg" height="100" alt="Cliente" />
-            <p id="p3"><b>Compro siempre y los talles son reales!!</b></p>
-            <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
-        </div>
-    </nav>
-
+    </div>
     <!-- Footer -->
-    <footer id="footer3">
+    <footer >
+        <div id="footer3">
         <div class="contactos">
             <div class="contacto1">
                 <img src="images/localizacion.svg"> Av. siempre viva 142. Paraná, Entre Rios.
             </div>
-            <div class="contacto2">
-                Todos los derechos son reservados a mi porque yo hice la pagina
-            </div>
-            <div class="contacto3"></div>
         </div>
         <div class="logoFooter">
-            <img src="images/logo.jpeg" alt="logo de velvetine">
+            <img src="images/logo.jpeg" width="200" height="200" alt="logo de velvetine">
         </div>
         <nav class="redesSociales">
             <a href="https://www.instagram.com/velvetine.lenceria/" class="instagram">
@@ -163,6 +160,10 @@
             <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRwQZjtgrgTTNpPWxJLVrQPMgcMCNTgWnQLMktcSdtJfPqVpvvqClDWzQqpCQPjlbCvxMCXv"
                 class="gmail"> <img src="images/gmail.svg" alt="logo de gmail"> velvetine.lenceria@gmail.com</a>
         </nav>
+    </div>
+        <article class="copyright">
+            Todos los derechos son reservados a mi porque yo hice la pagina
+        </article>
     </footer>
     <script>
         function myFunction() {
