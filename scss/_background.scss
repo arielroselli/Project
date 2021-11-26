@@ -1,13 +1,12 @@
-body {
-    background-image: url(../images/background/banner11.png);
-    font-size: 1,3rem;
-    text-align: center;
+body{
+  background: url(../images/background/banner11.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
-  ::-webkit-scrollbar {
-    -webkit-appearance: none;
-    width: 12px;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgba(0, 0, 0, .5);
-  }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+}
