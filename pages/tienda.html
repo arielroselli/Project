@@ -24,74 +24,100 @@
 <body>
     <!-- Menu de navegacion -->
     <header>
-        <nav class="topnav">
-            <a class="logoNavbar" href="index.html">
-                <img id="logo" src="../images/logo.PNG"></a>
-            <a href="como-comprar.html" class="topnav__item">Como comprar</a>
-            <a href="tienda.html" class="topnav__item" class="active">Tienda</a>
-            <a href="contactus.html" class="topnav__item">Contactanos</a>
-            <a href="login.html" class="topnav__item">Ingresar</a>
-            <a href="../index.html" class="topnav__item">Inicio</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars" style="font-size:22px" ; color="white"></i>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- logo -->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.PNG" width="auto" height="30" alt="Logo velvetine">
             </a>
+            <!-- enlaces -->
+            <div class="collapse navbar-collapse" id="opciones">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" class="active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Iniciar sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus.html">Contactanos!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="como-comprar.html">Como comprar ?</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <section id="titulo">
         <h1>Tienda</h1>
     </section>
     <!--TIENDA, lista de conjuntos-->
-    <div class="container">
-        <div class="container__contenedorConjuntos container-fluid">
-            <div class="card " style="width: 18rem;">
+        <div class="container__contenedorConjuntos container-fluid ">
+            <div class="card col-auto " style="width: 18rem;">
                 <img src="../images/amatista.jpeg" class="card-img-top" alt="Conjunto Amatista">
                 <div class="card-body">
                     <h5 class="card-title">Amatista</h5>
-                    <p class="card-text">Corpiño estilo top de taza de lycra de algodon y puntilla. Bombacha colaless con lycra de algodon y costados de puntilla, tiene un refuerzo de algodon.</p>
+                    <p class="card-text">Corpiño estilo top de taza de lycra de algodon y puntilla. Bombacha
+                        colaless con lycra de algodon y costados de puntilla, tiene un refuerzo de algodon.</p>
                     <a href="#" class="align-self-end btn btn-lg btn-block btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto " style="width: 18rem;">
                 <img src="../images/venus.jpeg" class="card-img-top" alt="Conjunto Venus">
                 <div class="card-body">
                     <h5 class="card-title">Venus</h5>
-                    <p class="card-text">Conjunto confeccionado en puntilla elastizada y red. Taza forrada en microtul color piel. La tanga es regulable y tiene un refuerzo de algodon en la zona intima.</p>
+                    <p class="card-text">Conjunto confeccionado en puntilla elastizada y red. Taza forrada en
+                        microtul color piel. La tanga es regulable y tiene un refuerzo de algodon en la zona intima.
+                    </p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/malbec.jpeg" class="card-img-top" alt="Conjunto Malbec">
                 <div class="card-body">
                     <h5 class="card-title">Malbec</h5>
-                    <p class="card-text">Corpiño con puntilla elastizada bordo combinado con lycra de seda elastizado, la espalda es regulable. Colaless de lycra de seda combinado con puntilla. Tiene refuerzo de algodon.</p>
+                    <p class="card-text">Corpiño con puntilla elastizada bordo combinado con lycra de seda
+                        elastizado, la espalda es regulable. Colaless de lycra de seda combinado con puntilla. Tiene
+                        refuerzo de algodon.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/felisaRosa.jpeg" class="card-img-top" alt="Conjunto Felisa Rosa">
                 <div class="card-body">
                     <h5 class="card-title">Felisa Rosa</h5>
-                    <p class="card-text">Conjunto confeccionado en algodon rosa combinado con puntilla natural. Espalda y tanga regulable, tiene un refuerzo de algodon en la zona intima.</p>
+                    <p class="card-text">Conjunto confeccionado en algodon rosa combinado con puntilla natural.
+                        Espalda y tanga regulable, tiene un refuerzo de algodon en la zona intima.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/monique.jpeg" class="card-img-top" alt="Conjunto Monique">
                 <div class="card-body">
                     <h5 class="card-title">Monique</h5>
-                    <p class="card-text">Conjunto confeccionado en microtul elastizado plumeti con flores. Strass plateado cosido a mano en corpiño y tanga. Espalda regulable y tanga regulable con refuerzo de algodon en la zona intima. NO incluye arnes portaligas</p>
+                    <p class="card-text">Conjunto confeccionado en microtul elastizado plumeti con flores. Strass
+                        plateado cosido a mano en corpiño y tanga. Espalda regulable y tanga regulable con refuerzo
+                        de algodon en la zona intima. NO incluye arnes portaligas</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/romantic.jpeg" class="card-img-top" alt="Conjunto Romantic">
                 <div class="card-body">
                     <h5 class="card-title">Romantic</h5>
-                    <p class="card-text">Conjunto confeccionado en microtul elastizado nude con corazones fucsias y rojos cosidos uno por uno sobre el microtul. Espalda regulable. Tanga regulable con refuerzo de algodon. NO incluye arnes portaligas.</p>
+                    <p class="card-text">Conjunto confeccionado en microtul elastizado nude con corazones fucsias y
+                        rojos cosidos uno por uno sobre el microtul. Espalda regulable. Tanga regulable con refuerzo
+                        de algodon. NO incluye arnes portaligas.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/liguerosFuego.jpeg" class="card-img-top" alt="Ligueros Fuego">
                 <div class="card-body">
                     <h5 class="card-title">Ligueros Fuego</h5>
@@ -99,42 +125,54 @@
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;">
+            <div class="card col-auto" style="width: 18rem;">
                 <img src="../images/ateneaBlanco.jpeg" class="card-img-top" alt="Atenea Blanco">
                 <div class="card-body">
                     <h5 class="card-title">Atenea Blanco</h5>
-                    <p class="card-text">Conjunto de puntilla elastizada blanca, taza forrada en jersey de algodon. Espalda regulable. Tanga tipo colaless regulable con refuerzo de algodón.</p>
+                    <p class="card-text">Conjunto de puntilla elastizada blanca, taza forrada en jersey de algodon.
+                        Espalda regulable. Tanga tipo colaless regulable con refuerzo de algodón.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                 </div>
             </div>
-            
         </div>
-    </div>
     </div>
     <!-- Footer -->
-    <footer id="footer3">
-        <div class="contactos">
-            <div class="contacto1">
-                <img src="../images/localizacion.svg"> Av. siempre viva 142. Paraná, Entre Rios.
-            </div>
-            <div class="contacto2">
-                Todos los derechos son reservados a mi porque yo hice la pagina
-            </div>
-            <div class="contacto3"></div>
-        </div>
-        <div class="logoFooter">
-            <img src="../images/logo.jpeg" alt="logo de velvetine">
-        </div>
-        <nav class="redesSociales">
-            <a href="https://www.instagram.com/velvetine.lenceria/" class="instagram">
-                <img src="../images/insta.svg" alt="logo de Instagram">@velvetine.lenceria
-            </a>
-            <a href="https://www.facebook.com/velvetine.lenceria" class="facebook">
-                <img src="../images/face.svg" alt="logo de facebook">@velvetine.lenceria</a>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase"><img src="../images/logo.PNG" width="30%" height="auto"
+                            alt="Logo velvetine"></h5>
+                    <p> Av. siempre viva 142. Paraná, Entre Rios.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="login.html">Iniciar Sesión</a>
+                        </li>
+                        <li>
+                            <a href="contactus.html">Contactanos!</a>
+                        </li>
+                        <li>
+                            <a href="tienda.html">Tienda</a>
+                        </li>
+                        <li>
+                            <a href="como-comprar.html">Como comprar?</a>
+                        </li>
+                    </ul>
 
-            <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcRwQZjtgrgTTNpPWxJLVrQPMgcMCNTgWnQLMktcSdtJfPqVpvvqClDWzQqpCQPjlbCvxMCXv"
-                class="gmail"> <img src="../images/gmail.svg" alt="logo de gmail"> velvetine.lenceria@gmail.com</a>
-        </nav>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2021 Copyright Velvetine Lenceria. Paraná, Entre Rios.
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
