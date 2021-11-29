@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url(//db.onlinewebfonts.com/c/01a1cdebb8bf5b8573622fa6f689369c?family=Vladimir+Script);
 @import url(https://kit.fontawesome.com/589a0fb908.js);
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
@@ -36,23 +37,30 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 10vw;
+  padding: 5vw;
+  margin-top: 5vw;
   padding-top: 50px;
-  margin-left: 100px;
+  margin-left: 5%;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   background-color: #fac6fa;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 14px blac;
+          box-shadow: 0px 4px 14px blac;
 }
 
-#tutorial__button {
-  padding: 1rem 1rem;
+.tutorial__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.3rem 1rem;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
   color: #000;
-  background-color: salmon;
+  background-color: #eeeeee;
   border: none;
   border-radius: 45px;
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -62,18 +70,21 @@ body {
   cursor: pointer;
   outline: none;
   max-width: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-#tutorial__button:hover {
+.tutorial__button:hover {
   background-color: purple;
-  -webkit-box-shadow: 0px 15px 20px rgba(92, 3, 44, 0.4);
-          box-shadow: 0px 15px 20px rgba(92, 3, 44, 0.4);
-  color: #fff;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+  color: #c51a1a;
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
 }
 
-#tutorial__button:active {
+.tutorial__button:active {
   -webkit-transform: translateY(-1px);
           transform: translateY(-1px);
 }
@@ -465,7 +476,6 @@ h1 {
   background-color: #C25E30;
 }
 
-/*Testimonios*/
 .testimonios {
   padding: 10px;
   background-color: #f7a2e8;
@@ -549,7 +559,6 @@ h1 {
   background-color: #C25E30;
 }
 
-/*BOTON INSTAGRAM*/
 * body {
   width: 100vw;
   -webkit-box-sizing: border-box;
