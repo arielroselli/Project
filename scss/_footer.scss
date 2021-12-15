@@ -1,7 +1,37 @@
 @import "variables";
-footer{
+
+footer {
   background-color: pink;
   text-align: center;
-  margin-bottom: 0px;
   margin-top: 30px;
+
+  .centerLogoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .list-unstyled li a {
+    text-decoration: none;
+    color: rgb(255, 0, 140);
+    text-decoration: bold;
+    width: 20px;
+  }
+  .list-unstyled li a:hover {
+    transform: scale(1.5);
+  }
+  
+
+  .footerTutorial {
+    display: flex;
+    position: fixed;
+  }
+  .text-uppercase img{
+    width:30%; 
+    height:auto;
+  }
+  .footer-copyright {
+    margin-bottom: 0px;
+  }
 }

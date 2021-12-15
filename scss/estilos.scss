@@ -1,3 +1,7 @@
+@import url("//db.onlinewebfonts.com/c/01a1cdebb8bf5b8573622fa6f689369c?family=Vladimir+Script");
+@import url("https://kit.fontawesome.com/589a0fb908.js");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @import "background";
 @import "comprar";
@@ -12,13 +16,10 @@
 @import "carousel";
 @import "variables";
 @import "login";
+@import "button";
 
-@import url(//db.onlinewebfonts.com/c/01a1cdebb8bf5b8573622fa6f689369c?family=Vladimir+Script);
-@import url(https://kit.fontawesome.com/589a0fb908.js);
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 
 * body{
-  width: 100vw;
   box-sizing: border-box;
 }

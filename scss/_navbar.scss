@@ -4,14 +4,26 @@
   font-weight: bold;
   margin-left: 15px;
 }
+
 .navbar {
   background-color: pink;
 }
-#opciones{
+
+#opciones {
   justify-content: right;
   padding-right: 30px;
-  
+
 }
-.navbar-brand{
+
+.navbar-brand {
   padding-left: 30px;
+
+img {
+    width: auto;
+    height: 30px;
+  }
 }
+  #opciones {
+    padding-left: 0px;
+    padding-right: 20px;
+  }

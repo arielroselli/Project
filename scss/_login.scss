@@ -1,16 +1,32 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30vw;
+  padding-right: 30vw;
+  
+}
+
 .form-login {
-  width: 400px;
-  height: 340px;
-  background: white;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+  max-width: 600px;
+  height: 400px;
+  background: pink;
   margin-top: 180px;
   box-shadow: 7px 13px 37px rgb(0, 0, 0);
-  padding: 20px 30px;
+  padding: 40px 60px;
   border-top: 4px solid #000000;
   color: rgb(0, 0, 0);
+  margin-bottom: 40%;
+  justify-content: center;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  margin-bottom: 200px;
 }
 
 .form-login h5 {
@@ -32,25 +48,48 @@
   font-weight: bold;
 }
 
-.buttons {
-  width: 100%;
-  height: 40px;
-  background: pink;
-  border: none;
-  color: rgb(0, 0, 0);
-  margin-bottom: 16px;
+.buttons1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 4px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
 }
 
-.form-login p{
-  height: 40px;
-  text-align: center;
-  border-bottom: 1px solid;
+.buttons1 a {
+  text-decoration: none;
+  color: black;
 }
+
+.buttons1:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.buttons1:active {
+  transform: scale(0.9);
+}
+
 
 .form-login a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
 }
 
 .form-login a:hover {

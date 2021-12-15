@@ -1,32 +1,62 @@
-
 @import "variables";
+
+.col-sm {
+  padding-left: 30px;
+
+  img {
+    height: 100px;
+  }
+}
+
+.h2Testimonios {
+  display: block;
+  position: center;
+  color: black;
+  font-family: 'Dancing Script';
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
 
 .testimonios {
   padding: 10px;
   background-color: rgb(247, 162, 232);
   border-radius: 30px;
-  border: 2px solid #000000;
   font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  box-shadow: 7px 13px 37px rgb(0, 0, 0);
+  padding: 20px 30px;
+  border-top: 4px solid #000000;
+  color: rgb(0, 0, 0);
+  margin-bottom: 100px;
 
-  .testimonios__nombreTest{
+  .fotoCliente {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .testimonios__nombreTest {
     font-size: 30px;
     padding: 20px;
   }
-  .testimonios__ciudadTest{
+
+  .testimonios__ciudadTest {
     color: grey;
     padding: 10px;
+    margin-bottom: 20px;
   }
-  @media screen and (min-width: 576px){
- .testi1{
-  border-right: 1px solid #000000;
-  border-left: 1px solid #000000;
- }
-}
+
+  @media screen and (min-width: 576px) {
+    .testi1 {
+      border-right: 1px solid #000000;
+      border-left: 1px solid #000000;
+    }
+  }
 }
 
-@media screen and (max-width: 575px){
-.testi1{
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
- }
+@media screen and (max-width: 575px) {
+  .testi1 {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+  }
 }

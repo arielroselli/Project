@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
-@import url(//db.onlinewebfonts.com/c/01a1cdebb8bf5b8573622fa6f689369c?family=Vladimir+Script);
-@import url(https://kit.fontawesome.com/589a0fb908.js);
+@import url("//db.onlinewebfonts.com/c/01a1cdebb8bf5b8573622fa6f689369c?family=Vladimir+Script");
+@import url("https://kit.fontawesome.com/589a0fb908.js");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 body {
   background: url(../images/background/banner11.png) no-repeat center center fixed;
   background-size: cover;
@@ -26,67 +26,98 @@ body {
   background-color: #C25E30;
 }
 
-#tutorial {
+#comoComprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5vw;
-  margin-top: 5vw;
-  padding-top: 50px;
-  margin-left: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
   background-color: #fac6fa;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 4px 14px blac;
-          box-shadow: 0px 4px 14px blac;
+  -webkit-box-shadow: 7px 13px 37px black;
+          box-shadow: 7px 13px 37px black;
+  border-top: 4px solid #000000;
+  color: black;
+  margin-top: 10%;
+  margin-bottom: 30%;
+  margin-left: 33vw;
+  margin-right: 22vw;
+  padding: 15px;
 }
 
-.tutorial__button {
+#comoComprar .buttonComoComprar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0.3rem 1rem;
+  position: relative;
+  display: inline-block;
+  padding: 1px 30px;
+  text-align: center;
   font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 500;
-  color: #000;
-  background-color: #eeeeee;
-  border: none;
-  border-radius: 45px;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-  max-width: 120px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 3px solid #725AC1;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0 0 #725AC1;
+          box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
-.tutorial__button:hover {
-  background-color: purple;
-  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
-  color: #c51a1a;
-  -webkit-transform: translateY(-7px);
-          transform: translateY(-7px);
+#comoComprar .buttonComoComprar a {
+  text-decoration: none;
+  color: black;
 }
 
-.tutorial__button:active {
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
+#comoComprar .buttonComoComprar:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 -100px 0 0 #725AC1;
+          box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+#comoComprar button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+@media screen and (max-width: 768px) {
+  #comoComprar {
+    margin-top: 10%;
+    margin-bottom: 30%;
+    margin-left: 17vw;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #comoComprar {
+    margin-top: 20%;
+    margin-bottom: 30%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }
 
 /*COLORES*/
@@ -105,8 +136,52 @@ body {
 footer {
   background-color: pink;
   text-align: center;
-  margin-bottom: 0px;
   margin-top: 30px;
+}
+
+footer .centerLogoFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .list-unstyled li a {
+  text-decoration: none;
+  color: #ff008c;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  width: 20px;
+}
+
+footer .list-unstyled li a:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+footer .footerTutorial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+}
+
+footer .text-uppercase img {
+  width: 30%;
+  height: auto;
+}
+
+footer .footer-copyright {
+  margin-bottom: 0px;
 }
 
 #contactUs {
@@ -118,8 +193,9 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 100px;
-  margin-left: 10%;
-  width: 70vw;
+  margin-left: 25%;
+  margin-right: 10%;
+  max-width: 700px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -128,9 +204,10 @@ footer {
   border-radius: 30px;
   -webkit-box-shadow: 5px 5px 5px black;
           box-shadow: 5px 5px 5px black;
+  margin-bottom: 200px;
 }
 
-#contactUs #nombre,
+#contactUs #nombre, #contactUs #celular,
 #contactUs #email {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,17 +218,18 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 27px;
+  height: 40px;
   background-color: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #725AC1;
   border-radius: 10px;
 }
 
-#contactUs p {
-  font-size: 100%;
+#contactUs .textoImput {
+  font-size: 25px;
   font-weight: bold;
   margin-left: 30px;
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 #contactUs #mensaje {
@@ -174,30 +252,59 @@ footer {
   width: 100%;
   height: 27px;
   background: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #725AC1;
 }
 
 #contactUs textarea {
   width: 100%;
   height: 120px;
   background: #ffffff;
-  border: 2px solid #000000;
+  border: 2px solid #725AC1;
   border-radius: 10px;
   padding: 10px;
   font-size: 15px;
   color: #000000;
+  margin-bottom: 30px;
 }
 
-#contactUs #submit {
-  width: 45%;
-  height: 20%;
-  border: solid black 1px;
-  border-radius: 9px;
-  margin-top: 20px;
+#contactUs .buttons3 {
+  position: relative;
+  display: inline-block;
+  padding: 1px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
   cursor: pointer;
-  margin-bottom: 50px;
-  margin-left: 10vw;
-  font-size: 100%;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 3px solid #725AC1;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0 0 #725AC1;
+          box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+#contactUs .buttons3 a {
+  text-decoration: none;
+  color: black;
+}
+
+#contactUs .buttons3:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 -100px 0 0 #725AC1;
+          box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+#contactUs .buttons3:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 h1 {
@@ -240,6 +347,16 @@ h1 {
   padding-left: 30px;
 }
 
+.navbar-brand img {
+  width: auto;
+  height: 30px;
+}
+
+#opciones {
+  padding-left: 0px;
+  padding-right: 20px;
+}
+
 .h1Velve {
   display: block;
   margin-left: 40vw;
@@ -248,7 +365,11 @@ h1 {
 
 @media screen and (max-width: 800px) {
   .h1Velve {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-left: 40vw;
     margin-top: 40px;
   }
@@ -269,6 +390,7 @@ h1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   max-width: 300px;
+  height: 400px;
 }
 
 #sectionIg {
@@ -296,17 +418,31 @@ h1 {
   position: relative;
   overflow: hidden;
   background-color: #f5a1cf;
-  border: 1px black;
+  -webkit-box-shadow: 7px 13px 37px black;
+          box-shadow: 7px 13px 37px black;
+  padding: 20px 30px;
+  border-top: 4px solid #000000;
+  color: black;
 }
 
 .widget_blog_subscription h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
   padding-top: 30px;
   padding-left: 10px;
 }
 
+.widget_blog_subscription #subscribe-field {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .widget_blog_subscription .inputs {
-  margin-bottom: 10px;
   text-align: center;
+  width: 95%;
+  padding: 1px 2px;
 }
 
 .widget_blog_subscription .inputs:first-child {
@@ -320,37 +456,15 @@ h1 {
 }
 
 .widget_blog_subscription input[type="text"] {
-  margin: 45px 30px;
+  margin: 10px;
   color: #999;
-  padding: 15px 15px !important;
+  padding: 6px 7px !important;
   text-align: center;
   width: 100% !important;
-  max-width: calc(100% - 90px);
+  max-width: calc(100% - 30px);
   outline: none;
   border: 0;
   font-size: 12px;
-}
-
-.widget_blog_subscription input[type="submit"] {
-  margin: 0;
-  background-color: #f700882c;
-  color: #0e0e0e;
-  padding: 1px 1px !important;
-  text-align: center;
-  width: 12rem;
-  max-width: 100%;
-  outline: none;
-  border: 0;
-  text-transform: uppercase;
-  font-size: 15px;
-  cursor: pointer;
-  -webkit-transition: .5s all ease-in-out;
-  transition: .5s all ease-in-out;
-  border-radius: 10px;
-}
-
-.widget_blog_subscription input[type="submit"]:hover {
-  background-color: #ff01ff;
 }
 
 /*COLORES*/
@@ -366,12 +480,41 @@ h1 {
   background-color: #C25E30;
 }
 
+.col-sm {
+  padding-left: 30px;
+}
+
+.col-sm img {
+  height: 100px;
+}
+
+.h2Testimonios {
+  display: block;
+  position: center;
+  color: black;
+  font-family: 'Dancing Script';
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
 .testimonios {
   padding: 10px;
   background-color: #f7a2e8;
   border-radius: 30px;
-  border: 2px solid #000000;
   font-weight: bold;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  -webkit-box-shadow: 7px 13px 37px black;
+          box-shadow: 7px 13px 37px black;
+  padding: 20px 30px;
+  border-top: 4px solid #000000;
+  color: black;
+  margin-bottom: 100px;
+}
+
+.testimonios .fotoCliente {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .testimonios .testimonios__nombreTest {
@@ -382,6 +525,7 @@ h1 {
 .testimonios .testimonios__ciudadTest {
   color: grey;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 576px) {
@@ -412,7 +556,7 @@ h1 {
 }
 
 .container__contenedorConjuntos {
-  gap: 20px;
+  gap: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,6 +566,86 @@ h1 {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container__contenedorConjuntos .card-title {
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  size: 40px;
+}
+
+.container__contenedorConjuntos .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  border: solid 2px black;
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 13px 37px black;
+          box-shadow: 7px 13px 37px black;
+}
+
+.container__contenedorConjuntos .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container__contenedorConjuntos .card-body .precio {
+  color: green;
+  -webkit-text-decoration: bold;
+          text-decoration: bold;
+  font-weight: 700;
+  margin-top: auto;
+  text-align: center;
+}
+
+.container__contenedorConjuntos .buttons2 {
+  position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 3px solid #725AC1;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0 0 #725AC1;
+          box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
+}
+
+.container__contenedorConjuntos .buttons2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.container__contenedorConjuntos .buttons2:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 -100px 0 0 #725AC1;
+          box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.container__contenedorConjuntos .buttons2:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .carousel-control-prev {
@@ -436,17 +660,13 @@ h1 {
   background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.001));
 }
 
-/*COLORES*/
-.btn--twitter {
-  background-color: #55acee;
-}
-
-.btn--facebook {
-  background-color: #3a5795;
-}
-
-.btn--send-mail {
-  background-color: #C25E30;
+@media screen and (max-width: 400px) {
+  .w-100 {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    min-height: 150px;
+  }
 }
 
 /*COLORES*/
@@ -460,19 +680,61 @@ h1 {
 
 .btn--send-mail {
   background-color: #C25E30;
+}
+
+/*COLORES*/
+.btn--twitter {
+  background-color: #55acee;
+}
+
+.btn--facebook {
+  background-color: #3a5795;
+}
+
+.btn--send-mail {
+  background-color: #C25E30;
+}
+
+.container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 30vw;
+  padding-right: 30vw;
 }
 
 .form-login {
-  width: 400px;
-  height: 340px;
-  background: white;
-  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 250px;
+  max-width: 600px;
+  height: 400px;
+  background: pink;
   margin-top: 180px;
   -webkit-box-shadow: 7px 13px 37px black;
           box-shadow: 7px 13px 37px black;
-  padding: 20px 30px;
+  padding: 40px 60px;
   border-top: 4px solid #000000;
   color: black;
+  margin-bottom: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  -webkit-box-shadow: 5px 5px 5px black;
+          box-shadow: 5px 5px 5px black;
+  margin-bottom: 200px;
 }
 
 .form-login h5 {
@@ -494,33 +756,99 @@ h1 {
   font-weight: bold;
 }
 
-.buttons {
-  width: 100%;
-  height: 40px;
-  background: pink;
-  border: none;
-  color: black;
-  margin-bottom: 16px;
+.buttons1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0 0 #725AC1;
+          box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
 }
 
-.form-login p {
-  height: 40px;
-  text-align: center;
-  border-bottom: 1px solid;
+.buttons1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons1:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 -100px 0 0 #725AC1;
+          box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.buttons1:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .form-login a {
   color: black;
   text-decoration: none;
   font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
 }
 
 .form-login a:hover {
   text-decoration: underline;
 }
 
+button {
+  position: relative;
+  display: inline-block;
+  padding: 1px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 3px solid #725AC1;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 0 0 #725AC1;
+          box-shadow: inset 0 0 0 0 #725AC1;
+  margin-bottom: 40px;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  color: white;
+  -webkit-box-shadow: inset 0 -100px 0 0 #725AC1;
+          box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+button:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
 * body {
-  width: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }

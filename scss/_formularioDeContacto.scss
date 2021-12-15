@@ -2,32 +2,35 @@
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  margin-left: 10%;
-  width: 70vw;
+  margin-left: 25%;
+  margin-right: 10%;
+  max-width: 700px;
   justify-content: center;
   background-color: pink;
   padding: 30px;
   border-radius: 30px;
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  margin-bottom: 200px;
 
-  #nombre,
+  #nombre, #celular,
   #email {
     display: flex;
     margin-top: 20px;
     letter-spacing: 1px;
     justify-content: center;
     width: 100%;
-    height: 27px;
+    height: 40px;
     background-color: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #725AC1;
     border-radius: 10px;
   }
 
-  p {
-    font-size: 100%;
+  .textoImput{
+    font-size: 25px;
     font-weight: bold;
     margin-left: 30px;
     margin-bottom: 0px;
+    margin-top: 10px;
   }
 
   #mensaje {
@@ -44,31 +47,50 @@
     width: 100%;
     height: 27px;
     background: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #725AC1;
   }
-
-
 
   textarea {
     width: 100%;
     height: 120px;
     background: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #725AC1;
     border-radius: 10px;
     padding: 10px;
     font-size: 15px;
     color: #000000;
+    margin-bottom: 30px;
   }
-
-  #submit {
-    width: 45%;
-    height: 20%;
-    border: solid black 1px;
-    border-radius: 9px;
-    margin-top: 20px;
-    cursor: pointer;
-    margin-bottom: 50px;
-    margin-left: 10vw;
-    font-size: 100%;
+  .buttons3{
+      position: relative;
+      display: inline-block;
+      padding: 1px 30px;
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: #725AC1;
+      background: transparent;
+      cursor: pointer;
+      transition: ease-out 0.5s;
+      border-radius: 30px;
+      border: 3px solid #725AC1;
+      border-radius: 10px;
+      box-shadow: inset 0 0 0 0 #725AC1;
+      margin-bottom: 40px;
+      max-width: max-content;
+     }
+  .buttons3 a{
+      text-decoration: none;
+      color: black;
   }
-}
+     
+     .buttons3:hover {
+      color: white;
+      box-shadow: inset 0 -100px 0 0 #725AC1;
+     }
+     
+     .buttons3:active {
+      transform: scale(0.9);
+     }
+  }

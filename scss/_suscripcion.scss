@@ -1,69 +1,56 @@
-
 .widget_blog_subscription {
+  display: flex;
+  margin: 50px auto;
+  width: 40%;
+  max-width: 350px;
+  min-width: 200px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f5a1cf;
+  box-shadow: 7px 13px 37px rgb(0, 0, 0);
+  padding: 20px 30px;
+  border-top: 4px solid #000000;
+  color: rgb(0, 0, 0);
+
+  h2 {
     display: flex;
-    margin: 50px auto;
-    width: 40%;
-    max-width: 350px;
-    min-width: 200px;
-    position: relative;
-    overflow: hidden;
-    background-color: #f5a1cf;
-    border: 1px black;
-  h2{
+    text-align: center;
     padding-top: 30px;
     padding-left: 10px;
   }
-    .inputs {
-      margin-bottom: 10px;
+
+  #subscribe-field {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .inputs {
+    text-align: center;
+    width: 95%; 
+    padding: 1px 2px;
+
+    &:first-child {
+      margin: 25px 15px 0;
+      color: #000000;
+      text-transform: uppercase;
       text-align: center;
-  
-      &:first-child {
-        margin: 25px 15px 0;
-        color: #000000;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: auto;
-        font-family: 'PT Sans Narrow', sans-serif;
-        letter-spacing: 1px;
-      }
-    }
-  
-    input {
-      &[type="text"] {
-        margin: 45px 30px;
-        color: #999;
-        padding: 15px 15px !important;
-        text-align: center;
-        width: 100% !important;
-        max-width: calc(100% - 90px);
-        outline: none;
-        border: 0;
-        font-size: 12px;
-      }
-  
-      &[type="submit"] {
-        margin: 0;
-        background-color: #f700882c;
-        color: rgb(14, 14, 14);
-        padding: 1px 1px !important;
-        text-align: center;
-        width: 12rem;
-        max-width: 100%;
-        outline: none;
-        border: 0;
-        text-transform: uppercase;
-        font-size: 15px;
-        cursor: pointer;
-        -webkit-transition: .5s all ease-in-out;
-        -moz-transition: .5s all ease-in-out;
-        -o-transition: .5s all ease-in-out;
-        transition: .5s all ease-in-out;
-        border-radius: 10px;
-  
-        &:hover {
-          background-color: #ff01ff;
-        }
-      }
+      font-size: auto;
+      font-family: 'PT Sans Narrow', sans-serif;
+      letter-spacing: 1px;
     }
   }
-  
+
+  input {
+    &[type="text"] {
+      margin: 10px;
+      color: #999;
+      padding: 6px 7px !important;
+      text-align: center;
+      width: 100% !important;
+      max-width: calc(100% - 30px);
+      outline: none;
+      border: 0;
+      font-size: 12px;
+    }
+  }
+}
