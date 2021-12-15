@@ -22,33 +22,29 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <!-- logo -->
+
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.PNG" width="auto" height="30" alt="Logo velvetine">
+                <img src="images/logo.PNG" alt="Logo velvetine">
             </a>
+
             <!-- enlaces -->
+
             <div class="collapse navbar-collapse" id="opciones">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html" class="active">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/login.html">Iniciar sesión</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/contactus.html">Contactanos!</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/tienda.html">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/como-comprar.html">Como comprar ?</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html" >Inicio</a></li>                    
+                    <li class="nav-item"><a class="nav-link" href="pages/como-comprar.html">Como comprar ?</a></li>                    
+                    <li class="nav-item"><a class="nav-link" href="pages/tienda.html">Tienda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/contactus.html">Contactanos</a></li>
+                    <li class="nav-item iniciaSesion"><a class="nav-link" href="pages/login.html">Iniciar sesión</a></li>
                 </ul>
             </div>
         </nav>
     </header>
+
     <!--Banner de publicidad-->
+
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -58,40 +54,26 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/enviogratis.png" class="d-block w-100" alt="Envios gratis">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </h5>
-                    <p>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </p>
                 </div>
             </div>
+
             <div class="carousel-item">
                 <img src="images/cuotas.png" class="d-block w-100" alt="3 cuotas sin interes">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </h5>
-                    <p>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </p>
                 </div>
             </div>
+
             <div class="carousel-item">
                 <img src="images/15off.png" class="d-block w-100" alt="15% de descuento">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </h5>
-                    <p>
-                        <!--espacio para alguna descripcion a futuro-->
-                    </p>
                 </div>
             </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
@@ -104,92 +86,98 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <article>
+
         <h1 class="h1Velve">Velvetine Lenceria</h1>
-    </article>
+
     <!--Publicaciones nuevas de la pagina de instagram-->
+
     <section id="sectionIg">
-        <iframe class="columna" height="400" src="https://www.instagram.com/p/CTXNJm4Hexu/embed"
-            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
-        <iframe class="columna" height="400" src="https://www.instagram.com/p/CWnsLSBO0w-/embed"
-            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
-        <iframe class="columna" height="400" src="https://www.instagram.com/p/CWqSXHEuEz0/embed"
-            title="publicacion instagram" frameborder="10" allowfullscreen></iframe>
+        <iframe class="columna" src="https://www.instagram.com/p/CTXNJm4Hexu/embed"
+            title="publicacion instagram"  allowfullscreen></iframe>
+        <iframe class="columna" src="https://www.instagram.com/p/CWnsLSBO0w-/embed"
+            title="publicacion instagram"  allowfullscreen></iframe>
+        <iframe class="columna" src="https://www.instagram.com/p/CWqSXHEuEz0/embed"
+            title="publicacion instagram"  allowfullscreen></iframe>
         <video class="columna" src="videos/velvetine.mp4" height="400" controls muted autoplay></video>
     </section>
+
     <!-- Adhesion de suscripcion -->
+
     <section class="widget widget_blog_subscription">
         <form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
             <h2>Suscribe nuestras noticias!</h2>
             <div class="inputs">
-                <input type="text" name="email" style="width: 95%; padding: 1px 2px"
+                <input type="text" name="email"
                     placeholder="Ingresa tu correo electronico" value="" id="subscribe-field">
-                <input type="submit" value="Enviar">
+                <button> Enviar</button>
             </div>
         </form>
     </section>
+
     <!-- Reseñas de clientes -->
-    <h2> Nuestros clientes, nos recomiendan! </h2>
+
+    <h2 class="h2Testimonios"> Nuestros clientes, nos recomiendan! </h2>
     <div class="testimonios">
         <div class="row">
+
             <div class="col-sm">
+                <img src="images/test1.jpg" alt="Cliente que comprueba la fidelidad del producto" class="fotoCliente" />
                 <span class="testimonios__nombreTest">Susana</span>
-                <img src="images/test1.jpg" height="100" alt="Cliente" />
                 <p id="p1"><b>Increible la calidad ! Hermosas prendas y terminaciones excelentes</b></p>
                 <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
             </div>
+
             <div class="col-sm testi1">
+                <img src="images/test2.jpg" alt="Cliente que comprueba la fidelidad del producto" class="fotoCliente" />
                 <span class="testimonios__nombreTest">Julieta</span>
-                <img src="images/test2.jpg" height="100" alt="Cliente" />
                 <p id="p2"><b>Envios super rapidos 100% recomendable</b></p>
                 <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
             </div>
+
             <div class="col-sm">
+                <img src="images/test3.jpg" alt="Cliente que comprueba la fidelidad del producto" class="fotoCliente"/>
                 <span class="testimonios__nombreTest">Valentina</span>
-                <img src="images/test3.jpg" height="100" alt="Cliente" />
                 <p id="p3"><b>Compro siempre y los talles son reales!!</b></p>
                 <span class="testimonios__ciudadTest">Paraná, Entre Rios</span>
             </div>
         </div>
     </div>
+
     <!-- Footer -->
+
     <footer class="page-footer font-small blue pt-4">
         <div class="container-fluid text-center text-md-left">
             <div class="row">
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <h5 class="text-uppercase"><img src="images/logo.PNG" width="30%" height="auto" alt="Logo velvetine"></h5>
+                <div class="col-md-6 mt-md-0 mt-3 centerLogoFooter">
+                    <h5 class="text-uppercase"><img src="images/logo.PNG" alt="Logo velvetine"></h5>
                     <p> Av. siempre viva 142. Paraná, Entre Rios.</p>
                 </div>
-                <hr class="clearfix w-100 d-md-none pb-3">
                 <div class="col-md-3 mb-md-0 mb-3">
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="index.html">Inicio</a>
-                        </li>
-                        <li>
-                            <a href="pages/login.html">Iniciar Sesión</a>
-                        </li>
-                        <li>
-                            <a href="pages/contactus.html">Contactanos!</a>
-                        </li>
-                        <li>
-                            <a href="pages/tienda.html">Tienda</a>
-                        </li>
-                        <li>
-                            <a href="pages/como-comprar.html">Como comprar?</a>
-                        </li>
-                    </ul>
 
-                </div>
+                    <!-- Links -->
+
+                    <h5 class="text-uppercase">Navegá</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="pages/login.html">Iniciar Sesión</a></li>
+                        <li><a href="pages/contactus.html">Contactanos!</a></li>
+                        <li><a href="pages/tienda.html">Tienda</a></li>
+                        <li><a href="pages/como-comprar.html">Como comprar?</a></li>
+                    </ul>
+                    
                 </div>
             </div>
         </div>
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2021 Copyright Velvetine Lenceria. Paraná, Entre Rios.
         </div>
+
+        <!-- Copyright -->
+
+        <p class="footer-copyright text-center">© 2021 Copyright Velvetine Lenceria. Paraná, Entre Rios.
+        </p>
+
     </footer>
+
+<!--SCRIPT-->
 
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
         integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
